@@ -474,6 +474,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'ironfurnaces:furnaces/gold_furnace2' })
     e.remove({ id: 'ironfurnaces:furnaces/iron_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/iron_furnace2' })
+    e.remove({ id: 'ironfurnaces:furnaces/million_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/obsidian_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/obsidian_furnace2' })
     e.remove({ id: 'ironfurnaces:furnaces/silver_furnace' })
