@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "ftbquests:book"
+	id: "72D013DB96F7BE8F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "03E0AA31AE195C12"
+		rewards: [{
+			id: "03E5D412C7F2D2EA"
+			type: "xp"
+			xp: 100
+		}]
+		shape: "hexagon"
+		size: 8.0d
+		tasks: [{
+			id: "6013556CA5EFAEAA"
+			title: "Welcome to Craftopia Adventures"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -2.0d
+	}]
+	title: "Welcome"
+}

@@ -1,0 +1,9 @@
+
+#Settings for the storage scanner machine
+[storagescanner]
+	#Time (in seconds) to hilight a block in the world
+	#Range: > 0
+	hilightTime = 5
+	#If this is true then opening the storage scanner GUI will automatically select the starred inventory view
+	hilightStarredOnGuiOpen = true
+
