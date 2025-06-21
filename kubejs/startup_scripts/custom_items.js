@@ -9,6 +9,7 @@ StartupEvents.registry('item', e => {
   e.create('cobalt_plate')
   e.create('desh_plate')
   e.create('dragonsteel_plate')
+  e.create('evil_tear')
   e.create('fiery_plate')
   e.create('ironwood_plate')
   e.create('hepatizon_plate')

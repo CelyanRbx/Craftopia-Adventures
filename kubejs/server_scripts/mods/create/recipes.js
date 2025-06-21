@@ -7,5 +7,5 @@ ServerEvents.recipes(e => {
         C: 'create:andesite_alloy', 
         I: 'alltheores:iron_plate'   
       }
-    ).id('craftopia:create/crafting/kinetics/propeller')
+    ).id('create/crafting/kinetics/propeller')
 })

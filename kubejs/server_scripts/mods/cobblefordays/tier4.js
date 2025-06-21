@@ -5,7 +5,7 @@ ServerEvents.recipes(e => {
     'BMB'
   ], {
     E: 'minecraft:emerald',
-    S: 'create:sturdy_sheet',        
+    S: 'kubejs:sturdy_plate',        
     G: 'minecraft:glass',
     T: 'cobblefordays:tier_3',
     B: 'minecraft:blaze_rod',

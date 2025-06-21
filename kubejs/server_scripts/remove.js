@@ -466,6 +466,7 @@ ServerEvents.recipes(e => {
 
     /*********************************** IRON FURNACES ***********************************/
     // ID
+    e.remove({ id: 'ironfurnaces:furnaces/allthemodium_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/copper_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/crystal_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/diamond_furnace' })
@@ -475,10 +476,13 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'ironfurnaces:furnaces/iron_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/iron_furnace2' })
     e.remove({ id: 'ironfurnaces:furnaces/million_furnace' })
+    e.remove({ id: 'ironfurnaces:furnaces/netherite_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/obsidian_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/obsidian_furnace2' })
     e.remove({ id: 'ironfurnaces:furnaces/silver_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/silver_furnace2' })
+    e.remove({ id: 'ironfurnaces:furnaces/unobtainium_furnace' })
+    e.remove({ id: 'ironfurnaces:furnaces/vibranium_furnace' })
 
     /*********************************** MEKANISM ***********************************/
     // BLASTING

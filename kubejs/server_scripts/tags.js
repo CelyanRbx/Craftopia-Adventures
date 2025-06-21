@@ -902,7 +902,34 @@ ServerEvents.tags("item", e => {
     'mcwlights:soul_warped_tiki_torch',
     'mcwlights:spruce_tiki_torch',
     'mcwlights:upgraded_torch',
-    'mcwlights:warped_tiki_torch')   
+    'mcwlights:warped_tiki_torch')
+    
+  // FXNT STORAGE
+  e.add('fxntstorage:simple_storage_box',
+  'fxntstorage:simple_storage_box_acacia',
+  'fxntstorage:simple_storage_box_bamboo',
+  'fxntstorage:simple_storage_box_birch',
+  'fxntstorage:simple_storage_box_cherry',
+  'fxntstorage:simple_storage_box_crimson',
+  'fxntstorage:simple_storage_box_dark_oak',
+  'fxntstorage:simple_storage_box_jungle',
+  'fxntstorage:simple_storage_box_mangrove',
+  'fxntstorage:simple_storage_box_oak',
+  'fxntstorage:simple_storage_box_spruce',
+  'fxntstorage:simple_storage_box_warped')  
+
+  e.add('fxntstorage:storage_trim',
+  'fxntstorage:storage_trim_acacia',
+  'fxntstorage:storage_trim_bamboo',
+  'fxntstorage:storage_trim_birch',
+  'fxntstorage:storage_trim_cherry',
+  'fxntstorage:storage_trim_crimson',
+  'fxntstorage:storage_trim_dark_oak',
+  'fxntstorage:storage_trim_jungle',
+  'fxntstorage:storage_trim_mangrove',
+  'fxntstorage:storage_trim_oak',
+  'fxntstorage:storage_trim_spruce',
+  'fxntstorage:storage_trim_warped')  
   
   // IMMERSIVE ENGINEERING
   e.add('immersiveengineering:mold',
@@ -2846,16 +2873,9 @@ ServerEvents.tags("item", e => {
 
 
 
-  // BALM
-  e.remove('balm:wooden_rods',
-    'minecraft:stick')
-
   // FORGE
   e.remove('forge:eggs',
-    'minecraft:turtle_egg')  
-  
-  e.remove('forge:rods/wooden',
-    'minecraft:stick')
+    'minecraft:turtle_egg')
 
   e.remove('forge:stone',
     'minecraft:infested_deepslate',

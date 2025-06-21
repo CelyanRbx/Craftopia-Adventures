@@ -116,7 +116,7 @@ e.add('emc:remove', [
   '@tiab',
   '@twilightforest',
   '@usefulslime',
-  '@vintageimprovements',
+  '@vintage',
   '@waystones',
   '@xnet',
 
