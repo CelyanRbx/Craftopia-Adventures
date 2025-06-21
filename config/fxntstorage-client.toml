@@ -1,0 +1,25 @@
+
+#Feeder Upgrade
+[feeder_upgrade]
+	#Display a message when the feeder upgrade feeds food to the player
+	displayFeederMessage = true
+	#Enables the feeder upgrade to use chorus fruit when feeding the player
+	allowChorusFruit = false
+
+#Jetpack Upgrade
+[jetpack_upgrade]
+	#Display remaining amount of Jetpack air on HUD
+	displayJetpackAirOverlay = true
+
+#Magnet Upgrade
+[magnet_upgrade]
+	#Ignore items being processed by a create fan
+	ignoreFanProcessing = true
+
+#Tool Swap Upgrade
+[tool_swap_upgrade]
+	#Prefer tools with the Silk Touch enchantment when used on blocks from the Silk Touch list
+	preferSilkTouch = false
+	#List of blocks that prefer the Silk Touch enchantment in order to drop the block instead of loot (i.e. grass_block instead of dirt)
+	prefersSilkTouchList = ["minecraft:grass_block", "minecraft:mycelium", "minecraft:podzol", "minecraft:clay", "minecraft:gravel", "minecraft:snow", "minecraft:glowstone", "minecraft:stone", "minecraft:sea_lantern", "minecraft:coal_ore", "minecraft:deepslate_coal_ore", "minecraft:nether_gold_ore", "minecraft:nether_quartz_ore", "minecraft:gilded_blackstone", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore"]
+

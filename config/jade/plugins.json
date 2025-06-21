@@ -51,6 +51,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
@@ -60,8 +70,8 @@
     "hud.status": true,
     "hud.contents": true
   },
-  "mekanismcovers": {
-    "cover_component": true
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
@@ -85,10 +95,6 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
-  },
-  "mbd2": {
-    "recipe_logic_provider": true,
-    "multiblock_provider": true
   },
   "extendedcrafting": {
     "elite_auto_table": true,
@@ -135,17 +141,6 @@
     "mortar": true,
     "cauldron": true
   },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
-  },
   "waystones": {
     "waystone": true
   },
@@ -184,9 +179,6 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
   "balm": {
     "jade": true
   },
@@ -205,6 +197,9 @@
     "bee_attributes": true,
     "productive_bee": true
   },
+  "modularrouters": {
+    "router": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
@@ -221,9 +216,6 @@
   },
   "twilightforest": {
     "quest_ram_wool": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

@@ -8089,27 +8089,23 @@
       "emc": 204
     },
     {
-      "item": "create_sa:fan_component",
+      "item": "#create_vibrant_vaults:frogports",
       "emc": 204
     },
     {
-      "item": "create_sa:heap_of_experience",
+      "item": "#create_vibrant_vaults:packagers",
       "emc": 204
     },
     {
-      "item": "create_sa:heat_engine",
+      "item": "#create_vibrant_vaults:redstone_requesters",
       "emc": 204
     },
     {
-      "item": "create_sa:hydraulic_engine",
+      "item": "#create_vibrant_vaults:stock_links",
       "emc": 204
     },
     {
-      "item": "create_sa:steam_engine",
-      "emc": 204
-    },
-    {
-      "item": "create_sa:vault_component",
+      "item": "#create_vibrant_vaults:vaults",
       "emc": 204
     },
     {
@@ -10166,6 +10162,30 @@
     },
     {
       "item": "functionalstorage:void_upgrade",
+      "emc": 204
+    },
+    {
+      "item": "#fxntstorage:backpack_upgrade",
+      "emc": 204
+    },
+    {
+      "item": "#fxntstorage:simple_storage_box",
+      "emc": 204
+    },
+    {
+      "item": "#fxntstorage:storage_trim",
+      "emc": 204
+    },
+    {
+      "item": "fxntstorage:backpack_blank_upgrade",
+      "emc": 204
+    },
+    {
+      "item": "fxntstorage:passer_block",
+      "emc": 204
+    },
+    {
+      "item": "fxntstorage:smart_passer_block",
       "emc": 204
     },
     {
@@ -14225,31 +14245,47 @@
       "emc": 204
     },
     {
-      "item": "#vintageimprovements:small_springs",
+      "item": "#vintage:small_springs",
       "emc": 204
     },
     {
-      "item": "#vintageimprovements:springs",
+      "item": "#vintage:springs",
       "emc": 204
     },
     {
-      "item": "#vintageimprovements:springs",
+      "item": "#vintage:springs",
       "emc": 204
     },
     {
-      "item": "vintageimprovements:belt_grinder",
+      "item": "vintage:belt_grinder",
       "emc": 204
     },
     {
-      "item": "vintageimprovements:centrifuge",
+      "item": "vintage:centrifuge",
       "emc": 204
     },
     {
-      "item": "vintageimprovements:grinder_belt",
+      "item": "vintage:copper_sulfate",
       "emc": 204
     },
     {
-      "item": "vintageimprovements:helve_hammer_slot_cover",
+      "item": "vintage:grinder_belt",
+      "emc": 204
+    },
+    {
+      "item": "vintage:helve_hammer_slot_cover",
+      "emc": 204
+    },
+    {
+      "item": "vintage:laser_item",
+      "emc": 204
+    },
+    {
+      "item": "vintage:redstone_module",
+      "emc": 204
+    },
+    {
+      "item": "vintage:recipe_card",
       "emc": 204
     },
     {

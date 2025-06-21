@@ -9,6 +9,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6814EB7704F628B1"]
+			icon: "minecraft:oak_log"
 			id: "4E77027AF6318F31"
 			rewards: [
 				{
@@ -24,8 +26,6 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
-			size: 3.0d
 			tasks: [{
 				id: "34C4E0985339930D"
 				item: {
@@ -42,249 +42,202 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4E77027AF6318F31"]
-			id: "73984C24CB748173"
+			icon: "minecraft:oak_sapling"
+			id: "6814EB7704F628B1"
+			shape: "hexagon"
+			size: 3.0d
 			tasks: [{
-				id: "5BEA768C675D7D89"
-				item: "tconstruct:crafting_station"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["73984C24CB748173"]
-			id: "393BA208032B32CF"
-			tasks: [{
-				id: "54CD8C4D68F15B7C"
+				id: "7395C62204161FBE"
 				item: {
 					Count: 1
-					id: "minecraft:wooden_pickaxe"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						Damage: 0
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)"
 					}
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -18.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["63D4CF67789B0026"]
-			id: "265E56B4102090EB"
-			tasks: [{
-				id: "0EA43CEEA009F3AE"
-				item: {
-					Count: 1
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["07BAAE2982F0E378"]
-			id: "59B5F9B094AD7FD7"
-			tasks: [{
-				id: "44FE9DC702ED9E8C"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["59B5F9B094AD7FD7"]
-			id: "63D4CF67789B0026"
-			tasks: [{
-				id: "428E653536504D39"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["59B5F9B094AD7FD7"]
-			id: "63871970ACDDE66E"
-			tasks: [{
-				id: "162849E19FBBCA48"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["393BA208032B32CF"]
-			id: "07BAAE2982F0E378"
-			tasks: [{
-				id: "3F28A0A59A180002"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["07BAAE2982F0E378"]
-			id: "5B10A56A442EF5A9"
-			tasks: [{
-				id: "289FEBFE9D014257"
-				item: {
-					Count: 1
-					id: "minecraft:stone_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["265E56B4102090EB"]
-			id: "2530FE8093F423BB"
-			tasks: [{
-				id: "4D4C229F7ADE2252"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2530FE8093F423BB"]
-			id: "436C0B797ACDBC4D"
-			tasks: [{
-				id: "1C2AB44D4D820C69"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["4E77027AF6318F31"]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			id: "1F659A2F2CBCE8E5"
-			shape: "circle"
+			icon: "minecraft:chest"
+			id: "5515ECA684302C3B"
 			tasks: [{
-				id: "3C73131EACF6AB4D"
-				item: "crafting_on_a_stick:crafting_table"
+				id: "56201306933586C8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:chests)"
+					}
+				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -4.5d
+			x: -15.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["1F659A2F2CBCE8E5"]
-			id: "6E53B301E419CE78"
+			dependencies: ["6814EB7704F628B1"]
+			id: "3448C442688185B2"
 			tasks: [{
-				id: "27C590BF2C289EAE"
-				item: "crafting_on_a_stick:loom"
+				id: "6245C31F16BD1F1E"
+				item: "botania:fertilizer"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -6.0d
+			x: -18.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1F659A2F2CBCE8E5"]
-			id: "1C003FBB65F6A878"
-			tasks: [{
-				id: "61CF4BBEB3CA9EC6"
-				item: "crafting_on_a_stick:grindstone"
-				type: "item"
-			}]
+			dependencies: ["4E77027AF6318F31"]
+			icon: "tconstruct:tinker_station"
+			id: "097EE2737D6F7904"
+			tasks: [
+				{
+					id: "7BFF8CE39771AA4B"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "34EF8DE87ACAF1DA"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "20B2FC5F793E21B1"
+					item: { Count: 4, id: "tconstruct:pattern" }
+					type: "item"
+				}
+				{
+					id: "0A10365816DE0092"
+					item: "tconstruct:cast_chest"
+					type: "item"
+				}
+				{
+					id: "047DBE5CC381213C"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
 			x: -13.5d
-			y: -6.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["1F659A2F2CBCE8E5"]
-			id: "6F250603F676DB98"
-			tasks: [{
-				id: "030FE108CCE5C6FC"
-				item: "crafting_on_a_stick:cartography_table"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1F659A2F2CBCE8E5"]
-			id: "453F729CCE118F54"
-			tasks: [{
-				id: "3F2AFC90C798F6A4"
-				item: "crafting_on_a_stick:stonecutter"
-				type: "item"
-			}]
+			dependencies: ["097EE2737D6F7904"]
+			icon: "tconstruct:smeltery_controller"
+			id: "40FEF1A28179091D"
+			tasks: [
+				{
+					id: "6A7E985825285B10"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "5242F7215A083EF4"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "24B5463F44579418"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "78BADCB1BEE3DE8B"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "0883CC99E703E899"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "14E77AD2518E0A06"
+					item: { Count: 2, id: "tconstruct:seared_faucet" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "42B4378972B9D3A3"
+					item: { Count: 16, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+			]
 			x: -13.5d
-			y: -7.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["1F659A2F2CBCE8E5"]
-			id: "1A5BC7B5FC6CF55C"
+			dependencies: ["097EE2737D6F7904"]
+			id: "69C809D9A92682B6"
 			tasks: [{
-				id: "5387B6407D0589C8"
-				item: "crafting_on_a_stick:smithing_table"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["1F659A2F2CBCE8E5"]
-			id: "32FB2CD06A0CB7A8"
-			tasks: [{
-				id: "018E2FABB045A398"
-				item: "crafting_on_a_stick:anvil"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5B10A56A442EF5A9"]
-			id: "55E553293367B3E8"
-			tasks: [{
-				id: "4EB0BB83EBDDB074"
+				id: "56B89FFBC7F19EA6"
 				item: "cobblefordays:tier_1"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -12.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["5118FA0D076F8D13"]
-			id: "5B7DC0188183F2E0"
-			shape: "gear"
-			size: 3.0d
+			dependencies: ["69C809D9A92682B6"]
+			id: "31AD239F597D1CE2"
 			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "4633109A61A72242"
-				type: "dimension"
+				id: "2633CA1B274909A6"
+				item: "cobblefordays:tier_2"
+				type: "item"
 			}]
 			x: -12.0d
-			y: 7.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["436C0B797ACDBC4D"]
-			id: "5118FA0D076F8D13"
+			dependencies: ["31AD239F597D1CE2"]
+			id: "360A82A1503ADDB5"
+			tasks: [{
+				id: "17F05CF6AAA3B265"
+				item: "cobblefordays:tier_3"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["360A82A1503ADDB5"]
+			id: "1A3199E870107B74"
+			tasks: [{
+				id: "1E3F9EFB3A868325"
+				item: "cobblefordays:tier_4"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A3199E870107B74"]
+			id: "003F72EF78CF6B76"
+			tasks: [{
+				id: "7AC618C7BA282CA3"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69C809D9A92682B6"]
+			icon: "minecraft:netherrack"
+			id: "0878AA9A0C72790C"
 			tasks: [
 				{
-					id: "1429EF6AF95AB366"
+					count: 10L
+					id: "5ACEF2365B1A7961"
+					item: { Count: 10, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					id: "3D71393F1D0E81CA"
 					item: {
 						Count: 1
 						id: "minecraft:flint_and_steel"
@@ -294,177 +247,92 @@
 					}
 					type: "item"
 				}
+			]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0878AA9A0C72790C"]
+			id: "697EB5C49BCB98C7"
+			tasks: [{
+				count: 9L
+				id: "7ABB64A39BE2A832"
+				item: { Count: 9, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["697EB5C49BCB98C7"]
+			icon: "minecraft:end_portal_frame"
+			id: "4B363ABBE6FD94A1"
+			tasks: [
+				{
+					id: "64B6EE5A4FB1B5FD"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
 				{
 					count: 10L
-					id: "465253B77E79C02D"
-					item: "minecraft:obsidian"
+					id: "498D361F3B8F255F"
+					item: { Count: 10, id: "minecraft:end_stone" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0D1BD2CE90EB801B"
+					item: { Count: 16, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					id: "0D1290AECB6A6F24"
+					item: "kubejs:evil_tear"
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: 5.5d
+			x: -10.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["59B5F9B094AD7FD7"]
-			id: "159D1DF1C628CB98"
-			tasks: [{
-				id: "41833C8A73CE78F6"
-				item: "ironfurnaces:iron_furnace"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1E8628F1E1AAB4BD"]
-			id: "529E1D5A3175FAE5"
-			tasks: [{
-				id: "1AD156D36460B30C"
-				item: "ironfurnaces:diamond_furnace"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["159D1DF1C628CB98"]
-			id: "1E8628F1E1AAB4BD"
-			tasks: [{
-				id: "763D357EFD4400E0"
-				item: "ironfurnaces:gold_furnace"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["529E1D5A3175FAE5"]
-			id: "380750DDD97D9B64"
-			tasks: [{
-				id: "2710B0E36DE21BDD"
-				item: "ironfurnaces:emerald_furnace"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["55E553293367B3E8"]
-			id: "0F119A627DEB73DB"
-			tasks: [{
-				id: "197BA0518D2A1FDB"
-				item: "cobblefordays:tier_2"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["0F119A627DEB73DB"]
-			id: "4E2BE54DA671E47A"
-			tasks: [{
-				id: "5ECC150349C5E005"
-				item: "cobblefordays:tier_3"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4E2BE54DA671E47A"]
-			id: "3E41ECFBCAABB062"
-			tasks: [{
-				id: "0F45C9CC379E204A"
-				item: "cobblefordays:tier_4"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["3E41ECFBCAABB062"]
-			id: "1CE55F83B032A69F"
-			tasks: [{
-				id: "11762DFC8B06977C"
-				item: "cobblefordays:tier_5"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["380750DDD97D9B64"]
-			id: "41BD9522B5B923E2"
-			tasks: [{
-				id: "304D77B63DB8D464"
-				item: "ironfurnaces:obsidian_furnace"
-				type: "item"
-			}]
+			dependencies: ["0878AA9A0C72790C"]
+			icon: {
+				Count: 1
+				id: "hostilenetworks:data_model"
+				tag: {
+					data_model: {
+						id: "hostilenetworks:wither"
+					}
+				}
+			}
+			id: "7475C971CF641130"
+			tasks: [
+				{
+					count: 3L
+					id: "34BD2AEF0E922874"
+					item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7165C23B77576173"
+					item: { Count: 4, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
 			x: -9.0d
-			y: 6.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["41BD9522B5B923E2"]
-			id: "630AA9BF82A48B5C"
+			dependencies: ["7475C971CF641130"]
+			id: "64A60372FC4DD32C"
 			tasks: [{
-				id: "75EE13A6C4F9EF5F"
-				item: "ironfurnaces:netherite_furnace"
+				id: "30FF1ECAA6588B3D"
+				item: "minecraft:nether_star"
 				type: "item"
 			}]
 			x: -7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["630AA9BF82A48B5C"]
-			id: "0707900594299BBB"
-			tasks: [{
-				id: "5088B1E7B578520E"
-				item: "ironfurnaces:allthemodium_furnace"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["0707900594299BBB"]
-			id: "2D317151A9F4DB3E"
-			tasks: [{
-				id: "23E5322943372E20"
-				item: "ironfurnaces:vibranium_furnace"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["2D317151A9F4DB3E"]
-			id: "1E33297D7FFF8F27"
-			tasks: [{
-				id: "70A8387F80F27BD1"
-				item: "ironfurnaces:unobtainium_furnace"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1E33297D7FFF8F27"]
-			id: "3C8C024DB6863D42"
-			tasks: [{
-				id: "3152E7A92F20E3F0"
-				item: {
-					Count: 1
-					id: "ironfurnaces:million_furnace"
-					tag: {
-						display: {
-							Name: "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"yellow\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"yellow\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.5d
+			y: -3.0d
 		}
 	]
 	title: "Main Questline"
